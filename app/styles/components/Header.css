@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    padding: 20px 0;
+    background-color: blueviolet;
+}
+
+.header-title {
+    color: white;
+    margin: 0 auto;
+    font-family: Roboto, "sans-serif";
+    font-size: 24px;
+}
+
+.header-back {
+    display: flex;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: -100px;
+}
+
+.header-back svg {
+    margin-right: 10px;
+}

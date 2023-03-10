@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.post {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.post-title {
+    font-family: Roboto, "sans-serif";
+}
+
+.post-subtitle {
+    display: flex;
+}
+
+.post-time, .post-link {
+    margin-left: 20px;
+}
